@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+    background-color: rgba(200, 200, 200);
+    padding: 10px;
+}
+.openModal-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
